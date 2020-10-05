@@ -1,0 +1,24 @@
+{
+  "name": "twilio-whatsapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "netlify-lambda build src",
+    "ts-check": "tsc --noEmit --lib ES2015 ./src/*.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/aws-lambda": "^8.10.63",
+    "@types/node-fetch": "^2.5.7",
+    "aws-lambda": "^1.0.6",
+    "messagebird": "^3.5.0",
+    "node-fetch": "^2.6.1",
+    "tslint": "^6.1.3",
+    "twilio": "^3.49.4",
+    "typescript": "^4.0.3"
+  }
+}
